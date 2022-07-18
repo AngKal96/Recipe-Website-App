@@ -1,0 +1,77 @@
+<div class="container-fluid">
+    <div class="row justify-content-center p-2">
+        <h1>G's Spiciest of Spicy Tteokbokki</h1>
+    </div>
+    <div class="row body justify-content-evenly mt-4 mb-4">
+        <div class="col-5 offset-1">
+            <table class="table table-bordered text-center">
+                <thead class="table-secondary">
+                    <tr>
+                        <td>
+                            Quantity
+                        </td>
+                        <td>
+                            Ingredients
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let item of ingredients">
+                        <td> {{ item.quantity }} </td>
+                        <td> {{ item.ingredient }} </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-4 offset-1">
+            <div class="container-fluid">
+                <h2 class="text-center pt-5">
+                    Instructions:
+                </h2>
+                <ol>
+                    <li>
+                        Bring water to a boil in saucepan on med-high heat.
+                    </li>
+                    <li>
+                        While water is heating, in a separate bowl mix the gocujang, red pepper flakes, and brown
+                        sugar.
+                        Cut
+                        2 green
+                        onion stalks into 1 inch sections.
+                    </li>
+                    <li>
+                        Once water is boiling, add the gochujang mixture in the saucepan until fully
+                        incorporated.
+                    </li>
+                    <li>
+                        Add in the defrosted deok and green onions and stir.
+                    </li>
+                    <li>
+                        Leave saucepan uncovered and lower heat to
+                        med-low. Stir occassionally. Let simmer for 25 minutes.
+                    </li>
+                    <li>
+                        (Optional) Cut fishcake sheets into squares and add
+                        into saucepan 10 minutes before it is done.
+                    </li>
+                    <li>
+                        Transfer to a serving dish and top with minced green onions.
+                        Serve while hot!
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-4 offset-4">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TA3Uo3a9674?autoplay=1&mute=1"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-8 offset-2">
+            <p>Have a question, or want to join my newsletter? Click the Contact page on the navigation bar!
+            </p>
+        </div>
+    </div>
+</div>
